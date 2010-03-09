@@ -1,9 +1,9 @@
-= google-blog-pinging-service
+= blog-pinging-service
 
 Easy as pie:
 
-    GoogleBlogPingingService.ping('My Sweet Site', 'http://www.mysweetsite.com')
+    BlogPingingService.ping('My Sweet Site', 'http://www.mysweetsite.com')
 
 == Copyright
 
-Copyright (c) 2009 teejayvanslyke. See LICENSE for details.
+Copyright (c) 2009 teejayvanslyke, 2010 jfredson. See LICENSE for details.

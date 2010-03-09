@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "google-blog-pinging-service"
-    gem.summary = %Q{Interface to the Google Blog Search Pinging Service API in Ruby}
-    gem.email = "teejay.vanslyke@gmail.com"
-    gem.homepage = "http://github.com/teejayvanslyke/google-blog-pinging-service"
-    gem.authors = ["teejayvanslyke"]
+    gem.name = "blog-pinging-service"
+    gem.summary = %Q{Ruby interface with various search engine ping APIs.}
+    gem.email = "jfredson@gmail.com"
+    gem.homepage = "http://github.com/jfredson/blog-pinging-service"
+    gem.authors = ["teejayvanslyke","jfredson"]
     gem.add_dependency('curb')
   end
 
@@ -41,7 +41,7 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "google-blog-pinging-service #{version}"
+  rdoc.title = "blog-pinging-service #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

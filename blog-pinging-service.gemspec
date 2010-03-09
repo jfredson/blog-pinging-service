@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{google-blog-pinging-service}
-  s.version = "0.1.0"
+  s.name = %q{blog-pinging-service}
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["teejayvanslyke"]
+  s.authors = ["teejayvanslyke","jfredson"]
   s.date = %q{2009-07-07}
-  s.email = %q{teejay.vanslyke@gmail.com}
+  s.email = %q{jfredson@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -19,18 +19,18 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "google-blog-pinging-service.gemspec",
-     "lib/google-blog-pinging-service.rb",
-     "spec/google-blog-pinging-service_spec.rb",
+     "blog-pinging-service.gemspec",
+     "lib/blog-pinging-service.rb",
+     "spec/blog-pinging-service_spec.rb",
      "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/teejayvanslyke/google-blog-pinging-service}
+  s.homepage = %q{http://github.com/jfredson/blog-pinging-service}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.4}
-  s.summary = %q{Interface to the Google Blog Search Pinging Service API in Ruby}
+  s.summary = %q{Ruby interface with various search engine ping APIs.}
   s.test_files = [
-    "spec/google-blog-pinging-service_spec.rb",
+    "spec/blog-pinging-service_spec.rb",
      "spec/spec_helper.rb"
   ]
 
